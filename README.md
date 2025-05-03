@@ -44,8 +44,8 @@ A modern, extensible authentication API built with **.NET 9 Minimal APIs**, foll
 | POST   | `/api/auth/logout`        | Logout and delete cookie   |
 | POST   | `/api/auth/refresh-tokens`| Refresh JWT tokens         |
 | POST   | `/api/auth/forgot-password` | Send password reset link |
-| POST   | `/api/auth/reset-password`  | Reset password using token |
-| POST   | `/api/auth/change-password` | Change password (auth)     |
+| PUT   | `/api/auth/reset-password`  | Reset password using token |
+| PUT   | `/api/auth/change-password` | Change password (auth)     |
 | POST   | `/api/auth/google-login`        | Login with Google          |
 
 > Note: Refresh tokens are stored as secure, HttpOnly cookies.
