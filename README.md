@@ -1,4 +1,4 @@
-# AuthImplementation
+# Auth Implementation
 
 A modern, extensible authentication API built with **.NET 9 Minimal APIs**, following the **CQRS pattern** with **MediatR**, supporting both **JWT**-based authentication and **Google SSO**.
 
