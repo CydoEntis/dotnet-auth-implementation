@@ -1,0 +1,74 @@
+# .NET Core
+.vs/
+.vscode/
+.idea/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Dd]ebug-Win32/
+[Dd]ebug-x64/
+[Dd]ebug-AnyCPU/
+[Dd]ebug-AnyCPU-Windows/
+[Dd]ebug-linux/
+[Dd]ebug-osx/
+[Dd]ebug-x86/
+[Dd]ebug-arm/
+[Dd]Release/
+[Dd]Release-Win32/
+[Dd]Release-x64/
+[Dd]Release-AnyCPU/
+bin/
+obj/
+
+# .NET Core SDK and tools
+/.vs/
+/.vscode/
+
+# NuGet
+**/*.nupkg
+**/packages/*
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows Installer logs
+*.cab
+*.msi
+
+# JetBrains Rider
+.idea/
+
+# User-specific files
+.idea/*
+
+# Windows Installer
+*.cab
+*.msi
+*.msp
+
+# ASP.NET Core
+wwwroot/
+
+# .NET Core and ASP.NET Core test projects
+TestResults/
+
+# ASP.NET specific
+*.dbmdl
+*.bak
+*.sql
+*.mdf
+*.ldf
+*.pdb
