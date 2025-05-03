@@ -8,7 +8,7 @@ public static class ResetPasswordEndpoint
 {
     public static void MapResetPasswordEndpoint(this IEndpointRouteBuilder routes)
     {
-        routes.MapPost("/api/auth/reset-password", async (ResetPasswordCommand command, IMediator mediator) =>
+        routes.MapPut("/api/auth/reset-password", async (ResetPasswordCommand command, IMediator mediator) =>
             {
                 var result = await mediator.Send(command);
                 return ResultMapper.ToHttpResult(result);
